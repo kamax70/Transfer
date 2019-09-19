@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TransferSuite" verbose="1" parallel="false">
+
+    <test name="TransferTest">
+        <packages>
+            <package name="com.transfer.*"/>
+        </packages>
+    </test>
+</suite>
